@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pet Shop Çınar | Mama, Oyuncak ve Pet Ürünleri</title>
+<meta name="description" content="Pet Shop Çınar - Kedi ve köpek mamaları, oyuncaklar ve bakım ürünleri. Bahçelievler, İstanbul.">
+<style>
+:root{--green:#1f6b45;--lime:#dff2df;--ink:#203329;--muted:#65766b;--cream:#fbfdf9}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}
+a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 22px}
+header{background:#fff;border-bottom:1px solid #e7eee7;position:sticky;top:0;z-index:5}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-size:23px;font-weight:800;color:var(--green)}.brand span{font-size:26px;margin-right:7px}
+nav{display:flex;gap:22px;font-weight:600;color:#40584a}.navbtn,.btn{display:inline-block;background:var(--green);color:white;padding:12px 18px;border-radius:10px;font-weight:700}
+.hero{padding:70px 0 60px;background:linear-gradient(120deg,#e9f6e8,#f9fcf5)}
+.heroGrid{display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.eyebrow{color:var(--green);font-weight:800;letter-spacing:1px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(34px,5vw,56px);line-height:1.08;margin:12px 0 18px}
+.hero p{font-size:18px;color:var(--muted);max-width:620px}
+.heroArt{background:white;border-radius:28px;min-height:270px;display:grid;place-items:center;font-size:110px;box-shadow:0 18px 45px #244b2a12}
+section{padding:58px 0}.sectionHead{text-align:center;margin-bottom:30px}.sectionHead h2{font-size:32px;margin:5px 0}.sectionHead p{color:var(--muted);margin:0}
+.categories{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cat{background:white;border:1px solid #e7eee7;border-radius:16px;padding:22px;text-align:center;font-weight:800}.cat b{display:block;font-size:36px;margin-bottom:8px}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:white;border:1px solid #e7eee7;border-radius:17px;overflow:hidden;box-shadow:0 8px 24px #20332908}
+.pic{height:155px;background:linear-gradient(135deg,#edf7ec,#f9f4e9);display:grid;place-items:center;font-size:70px}
+.info{padding:18px}.tag{font-size:11px;color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:.6px}
+.info h3{margin:6px 0;font-size:18px}.info p{margin:0 0 12px;color:var(--muted);font-size:14px;min-height:42px}
+.price{font-weight:800;color:var(--green);font-size:18px}.ask{display:block;margin-top:12px;text-align:center;padding:10px;border:1px solid #cfe2d0;border-radius:9px;color:var(--green);font-weight:700}
+.note{font-size:13px;color:var(--muted);text-align:center;margin-top:18px}
+.contact{background:#edf6eb}.contactGrid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contactBox{background:white;border-radius:17px;padding:24px}
+.contactBox h3{margin-top:0}.line{padding:10px 0;border-bottom:1px solid #edf1ed}.line:last-child{border:0}
+footer{background:#183e2b;color:#e9f4e9;padding:25px 0;text-align:center;font-size:14px}
+@media(max-width:760px){nav{display:none}.heroGrid,.contactGrid{grid-template-columns:1fr}.hero{padding:48px 0}.heroArt{min-height:190px}.categories{grid-template-columns:1fr}.products{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.products{grid-template-columns:1fr}.nav{height:66px}.navbtn{padding:10px 12px;font-size:13px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#"><span>🐾</span>Pet Shop Çınar</a><nav><a href="#urunler">Ürünler</a><a href="#hakkimizda">Hakkımızda</a><a href="#iletisim">İletişim</a></nav><a class="navbtn" href="https://wa.me/905355083458">WhatsApp</a></div></header>
+<main>
+<section class="hero" id="hakkimizda"><div class="wrap heroGrid"><div><div class="eyebrow">Minik dostlarımız için</div><h1>Onların mutluluğu,<br>bizim önceliğimiz. 🐶</h1><p>Pet Shop Çınar’da kedi ve köpek dostlarınız için mama, oyuncak ve bakım ürünlerini keşfedin. Ürün ve stok bilgisi için bize ulaşın.</p><a class="btn" href="#urunler">Ürünleri İncele</a></div><div class="heroArt">🐕 🐈</div></div></section>
+<section><div class="wrap"><div class="sectionHead"><div class="eyebrow">Alışveriş kategorileri</div><h2>Dostunuz için aradığınız her şey</h2></div><div class="categories"><div class="cat"><b>🐱</b>Kedi Ürünleri</div><div class="cat"><b>🐶</b>Köpek Ürünleri</div><div class="cat"><b>🧴</b>Bakım ve Aksesuar</div></div></div></section>
+<section id="urunler"><div class="wrap"><div class="sectionHead"><div class="eyebrow">Ürünlerimiz</div><h2>Öne çıkan ürünler</h2><p>Ürün çeşitleri ve güncel fiyatlar için WhatsApp’tan bilgi alabilirsiniz.</p></div>
+<div class="products">
+<article class="card"><div class="pic">🐱🥣</div><div class="info"><div class="tag">Kedi maması</div><h3>Yetişkin Kedi Maması</h3><p>Günlük beslenme için kuru mama seçenekleri.</p><div class="price">Fiyat sorunuz</div><a class="ask" href="https://wa.me/905355083458?text=Yeti%C5%9Fkin%20kedi%20mamas%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">Bilgi Al</a></div></article>
+<article class="card"><div class="pic">🐶🍖</div><div class="info"><div class="tag">Köpek maması</div><h3>Köpek Maması</h3><p>Farklı yaş ve boyutlara uygun mama seçenekleri.</p><div class="price">Fiyat sorunuz</div><a class="ask" href="https://wa.me/905355083458?text=K%C3%B6pek%20mamas%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">Bilgi Al</a></div></article>
+<article class="card"><div class="pic">🧶🐈</div><div class="info"><div class="tag">Oyuncak</div><h3>Kedi Oyun Topu</h3><p>Kedinizin oyun ve hareket ihtiyacı için.</p><div class="price">Fiyat sorunuz</div><a class="ask" href="https://wa.me/905355083458?text=Kedi%20oyuncaklar%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">Bilgi Al</a></div></article>
+<article class="card"><div class="pic">🦴</div><div class="info"><div class="tag">Ödül</div><h3>Köpek Ödül Maması</h3><p>Eğitim ve ödüllendirme zamanları için atıştırmalıklar.</p><div class="price">Fiyat sorunuz</div><a class="ask" href="https://wa.me/905355083458?text=K%C3%B6pek%20%C3%B6d%C3%BCl%20mamalar%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">Bilgi Al</a></div></article>
+<article class="card"><div class="pic">🧼</div><div class="info"><div class="tag">Bakım</div><h3>Pet Bakım Ürünleri</h3><p>Temizlik ve günlük bakım için yardımcı ürünler.</p><div class="price">Fiyat sorunuz</div><a class="ask" href="https://wa.me/905355083458?text=Bak%C4%B1m%20%C3%BCr%C3%BCnleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">Bilgi Al</a></div></article>
+<article class="card"><div class="pic">🛏️</div><div class="info"><div class="tag">Aksesuar</div><h3>Yatak ve Aksesuar</h3><p>Konforlu yataklar ve günlük kullanım aksesuarları.</p><div class="price">Fiyat sorunuz</div><a class="ask" href="https://wa.me/905355083458?text=Yatak%20ve%20aksesuarlar%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">Bilgi Al</a></div></article>
+</div><p class="note">Not: Bu sayfadaki ürünler örnek ürün gruplarıdır. Gerçek ürün, marka, fotoğraf ve fiyatlar mağazanızdaki stoğa göre güncellenmelidir.</p>
+</div></section>
+<section class="contact" id="iletisim"><div class="wrap"><div class="sectionHead"><div class="eyebrow">Bize ulaşın</div><h2>Pet Shop Çınar</h2><p>Sorularınız ve sipariş talepleriniz için iletişime geçin.</p></div><div class="contactGrid"><div class="contactBox"><h3>İletişim Bilgileri</h3><div class="line">📞 <b>Telefon:</b> <a href="tel:+905355083458">0535 508 34 58</a></div><div class="line">✉️ <b>E-posta:</b> <a href="mailto:cinarpetshop1@hotmail.com">cinarpetshop1@hotmail.com</a></div><div class="line">📍 <b>Adres:</b> Mahmutbey Caddesi, Hürriyet Mahallesi, Birlik 1 Sokak No: 4/B, Bahçelievler, İstanbul</div><p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Mahmutbey+Caddesi+H%C3%BCrriyet+Mahallesi+Birlik+1+Sokak+No+4%2FB+Bah%C3%A7elievler+%C4%B0stanbul" target="_blank">Yol Tarifi Al</a></p></div><div class="contactBox"><h3>WhatsApp’tan yazın</h3><p>Ürünlerin stok ve fiyat bilgilerini hızlıca öğrenmek için bize mesaj gönderin.</p><a class="btn" href="https://wa.me/905355083458">WhatsApp ile İletişim</a></div></div></div></section>
+</main><footer>© 2026 Pet Shop Çınar · Bahçelievler / İstanbul</footer>
+</body></html>
